@@ -143,7 +143,7 @@ jar 파일 실행 후 서버가 떠 있는지 확인
                                     <displayCommandOutputs>true</displayCommandOutputs>
                                     <failOnError>false</failOnError>
                                     <commands>
-                                        <command>sudo systemctl restart app.service</command>
+                                        <command>sudo systemctl restart myapp.service</command>
                                     </commands>
                                 </configuration>
                             </execution>
