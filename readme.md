@@ -155,7 +155,7 @@ jar 파일 실행 후 서버가 떠 있는지 확인
     </profiles>
 ```
 
-## 4. 배포 명령어
+## 3. 배포 명령어
 ```
 # mvnw clean package -Pdev
 ```
