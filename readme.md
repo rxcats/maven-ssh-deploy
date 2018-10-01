@@ -81,7 +81,7 @@ jar 파일 실행 후 서버가 떠 있는지 확인
 ```
 
 ## 3. pom.xml 설정
-
+```
     <build>
         <finalName>myapp.jar</finalName> <!-- 빌드되는 파일명 지정 -->
 
@@ -157,6 +157,7 @@ jar 파일 실행 후 서버가 떠 있는지 확인
 ```
 
 ## 4. 배포 명령어
+
 ```
 # mvnw clean package -Pdev
 ```
