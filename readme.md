@@ -46,7 +46,7 @@ jar 파일 실행 후 서버가 떠 있는지 확인
 - Tip) 만약 myapp.jar 을 ls -al 로 확인했을 경우 실행(x) 권한이 없으면 chmod +x myapp.jar 로 실행권한을 준다.
 
 
-## 2. maven 환경설정 파일에 ec2 로그인 정보를 추가.
+## 2. maven 환경설정 파일에 서버 ssh 계정 정보 추가
 - IntelliJ Project -> 마우스 우클릭 -> Maven -> Open 'settings.xml' or Create 'settings.xml' 메뉴를 이용하면 편리.
 - Windows : C:\Users\{username}\.m2\settings.xml
 - Mac : /Users/{username}/.m2/settings.xml
@@ -78,8 +78,9 @@ jar 파일 실행 후 서버가 떠 있는지 확인
         </server>
     </servers>
 </settings>
+```
 
-3. pom.xml 설정
+## 3. pom.xml 설정
 
     <build>
         <finalName>myapp.jar</finalName> <!-- 빌드되는 파일명 지정 -->
@@ -155,7 +156,7 @@ jar 파일 실행 후 서버가 떠 있는지 확인
     </profiles>
 ```
 
-## 3. 배포 명령어
+## 4. 배포 명령어
 ```
 # mvnw clean package -Pdev
 ```
