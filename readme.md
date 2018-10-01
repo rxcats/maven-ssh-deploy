@@ -2,7 +2,7 @@
 
 ## 1. 배포서버 설정
 - 참고 레퍼런스 : https://docs.spring.io/spring-boot/docs/current/reference/html/deployment-install.html
-- mave ssh 배포 : https://blog.csdn.net/xiao__gui/article/details/49420813
+- maven ssh 배포 : https://blog.csdn.net/xiao__gui/article/details/49420813
 
 - jar 경로 : /home/ec2-user/app/myapp.jar
 - log 경로 : /home/ec2-user/app/logs
